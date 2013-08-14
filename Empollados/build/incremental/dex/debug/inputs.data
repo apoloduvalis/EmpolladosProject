@@ -1,0 +1,32 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1376358291000 361 f4925e8d589132cd8491b28d174b49544c9f4a28 /Users/apoloduvalis/AndroidStudioProjects/EmpolladosProject/Empollados/build/classes/debug/co/verdedigital/empollados/BuildConfig.class
+1376363773000 504 ce07cbe85fb33dc1c40033aaf3a99c19c1b4ea1a /Users/apoloduvalis/AndroidStudioProjects/EmpolladosProject/Empollados/build/classes/debug/co/verdedigital/model/Equipo.class
+1376363773000 560 fb132cdbaca91c09a65efbef0b61f13ca53afe15 /Users/apoloduvalis/AndroidStudioProjects/EmpolladosProject/Empollados/build/classes/debug/co/verdedigital/adapters/PollasArrayAdapter$ViewHolder.class
+1376442233000 727 181bdff2766646393f8b4c1d64595fe2a9e3ad3f /Users/apoloduvalis/AndroidStudioProjects/EmpolladosProject/Empollados/build/classes/debug/co/verdedigital/empollados/R$id.class
+1376448176000 734 8d975f2657e40631f3750605ddb04c1da26630c2 /Users/apoloduvalis/AndroidStudioProjects/EmpolladosProject/Empollados/build/classes/debug/co/verdedigital/services/Setup.class
+1376363773000 1820 d45469bbbd4125f2a93a32c664e88b758eb596d8 /Users/apoloduvalis/AndroidStudioProjects/EmpolladosProject/Empollados/build/classes/debug/co/verdedigital/model/Encuentro.class
+1376442233000 757 6241225765ec04ffbe7034154059dc3260b411a0 /Users/apoloduvalis/AndroidStudioProjects/EmpolladosProject/Empollados/build/classes/debug/co/verdedigital/empollados/R.class
+1376363773000 2095 57b7dae0ed936beca8783b70f14427036e3a864e /Users/apoloduvalis/AndroidStudioProjects/EmpolladosProject/Empollados/build/classes/debug/co/verdedigital/model/Fase.class
+1376450579000 1490 9ab9eaee16ab1d0e273d1ed7e80386fc44d64c85 /Users/apoloduvalis/AndroidStudioProjects/EmpolladosProject/Empollados/build/classes/debug/co/verdedigital/model/Polla.class
+1376354715000 490914 3fe75433da602500cc71fcc1c46e5550291dd45d /Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-v4/13.0.0/support-v4-13.0.0.jar
+1376363774000 594 17c00433b12d42a7d859ced90ee39732ab367cbe /Users/apoloduvalis/AndroidStudioProjects/EmpolladosProject/Empollados/build/classes/debug/co/verdedigital/model/Pronostico.class
+1376442233000 412 cabc57d65c7c9a80ca23c8ab121bf00a4c083532 /Users/apoloduvalis/AndroidStudioProjects/EmpolladosProject/Empollados/build/classes/debug/co/verdedigital/empollados/R$menu.class
+1376363774000 752 be9e738da9fe37bca1b3eb7bb67e4e2bf454e0ed /Users/apoloduvalis/AndroidStudioProjects/EmpolladosProject/Empollados/build/classes/debug/co/verdedigital/model/Transaccion.class
+1376450579000 2208 1d0d45cdcb0b598c6d413a036c97d7def2bdc0fd /Users/apoloduvalis/AndroidStudioProjects/EmpolladosProject/Empollados/build/classes/debug/co/verdedigital/adapters/PollasArrayAdapter.class
+1376363774000 644 a22d4f469c8cd859eae1b43fd7658c5effc8dd1a /Users/apoloduvalis/AndroidStudioProjects/EmpolladosProject/Empollados/build/classes/debug/co/verdedigital/model/Participante.class
+1376363774000 1028 7ae11e5763dd8ebbac7e5127efceb18907bfe939 /Users/apoloduvalis/AndroidStudioProjects/EmpolladosProject/Empollados/build/classes/debug/co/verdedigital/empollados/R$drawable.class
+1376358291000 485 6b5e76039d9f23a45d6e58d6cf10060f049ca108 /Users/apoloduvalis/AndroidStudioProjects/EmpolladosProject/Empollados/build/classes/debug/co/verdedigital/empollados/R$dimen.class
+1376442233000 465 da2ee5cef4ae9e20af1b837a08f7f9ae07e24f3d /Users/apoloduvalis/AndroidStudioProjects/EmpolladosProject/Empollados/build/classes/debug/co/verdedigital/empollados/R$layout.class
+1376363774000 1658 e9ad40e258d8d1a6c3b34876500102f342319659 /Users/apoloduvalis/AndroidStudioProjects/EmpolladosProject/Empollados/build/classes/debug/co/verdedigital/persistence/TorneosDAO.class
+1376363774000 647 97221d7d6e2b1038004d534c75efb0a5cbea6901 /Users/apoloduvalis/AndroidStudioProjects/EmpolladosProject/Empollados/build/classes/debug/co/verdedigital/model/Usuario.class
+1376363773000 1046 1b4660b4ef6155d6021f53d20096a9c0727abc28 /Users/apoloduvalis/AndroidStudioProjects/EmpolladosProject/Empollados/build/classes/debug/co/verdedigital/model/Categoria.class
+1376363774000 590 ebbf238d05663da41ef5c1b3a508d6b7aa6937ab /Users/apoloduvalis/AndroidStudioProjects/EmpolladosProject/Empollados/build/classes/debug/co/verdedigital/model/Marcador.class
+1376442233000 455 da9341e2de5241f7db58c9993a5ee47ad4b5863b /Users/apoloduvalis/AndroidStudioProjects/EmpolladosProject/Empollados/build/classes/debug/co/verdedigital/empollados/R$style.class
+1376358291000 364 e1329bb89c10cb684c8a3e809994e11dd3844042 /Users/apoloduvalis/AndroidStudioProjects/EmpolladosProject/Empollados/build/classes/debug/co/verdedigital/empollados/R$attr.class
+1376363774000 551 043d21462acafcc6007ffb6d1222896099bd010f /Users/apoloduvalis/AndroidStudioProjects/EmpolladosProject/Empollados/build/classes/debug/co/verdedigital/model/Mecanismo.class
+1376442233000 859 e449a0d6f3bcee654098f4df2d9cc05a57ec2b7a /Users/apoloduvalis/AndroidStudioProjects/EmpolladosProject/Empollados/build/classes/debug/co/verdedigital/empollados/R$string.class
+1376363773000 1411 56fe365c89878b4f0313bf487c3e7033245954f7 /Users/apoloduvalis/AndroidStudioProjects/EmpolladosProject/Empollados/build/classes/debug/co/verdedigital/model/Torneo.class
+1376450579000 2718 6cad37cf22055b5bb43a40b0bee0b743d4165a0e /Users/apoloduvalis/AndroidStudioProjects/EmpolladosProject/Empollados/build/classes/debug/co/verdedigital/persistence/PollasDAO.class
+1376449455000 1699 e99637824382985a469f9ba9733a625fe44e5279 /Users/apoloduvalis/AndroidStudioProjects/EmpolladosProject/Empollados/build/classes/debug/co/verdedigital/empollados/MainActivity.class
