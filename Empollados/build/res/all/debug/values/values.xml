@@ -13,6 +13,7 @@
     <string name="main_mis_pollas_title">Mis pollas</string>
     <string name="main_otras_pollas_refresh">Refrescar lista de las pollas en las que estoy participando</string>
     <string name="main_otras_pollas_title">Otras pollas</string>
+    <string name="polla_etiqueta_nombre">Nombre:</string>
     <string name="pollas_detalles_polla">Detalles de la polla</string>
     <string name="pollas_logo_torneo">Torneo al que corresponde la polla</string>
     <string name="title_activity_pollas">PollasActivity</string>

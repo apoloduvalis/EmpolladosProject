@@ -1,12 +1,13 @@
 package co.verdedigital.model;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.HashMap;
 
 /**
  * Created by apoloduvalis on 5/16/13.
  */
-public class Polla
+public class Polla implements Serializable
 {
     public BigDecimal id;
     public String titulo;

@@ -3,16 +3,21 @@ package co.verdedigital.empollados;
 import java.math.BigDecimal;
 import java.util.List;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.view.View;
 import android.widget.ListView;
+import android.widget.RelativeLayout;
 
 import co.verdedigital.adapters.PollasArrayAdapter;
 import co.verdedigital.model.Polla;
 import co.verdedigital.services.Setup;
 
-public class MainActivity extends Activity {
+public class MainActivity extends Activity
+{
+    public final static String EXTRA_POLLA = "co.verdedigital.empollados.POLLA";
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -22,21 +27,10 @@ public class MainActivity extends Activity {
 
         ListView listView = (ListView) findViewById(R.id.main_mis_pollas_list);
         List<Polla> pollas = Setup.loadConfiguration("ameza");
-        Polla[] values = new Polla[2];
-        values[0] = pollas.get(0);
-        values[1] = pollas.get(1);
-        /*
-        values[1] = new Polla(BigDecimal.valueOf(10.0),"Champions League",true,null);
-        values[2] = new Polla(BigDecimal.valueOf(20.0),"Eliminatorias Mundial",true,null);
-*/
-
-        // Define a new Adapter
-        // First parameter - Context
-        // Second parameter - the Array of data
+        Polla[] values = pollas.toArray(new Polla[pollas.size()]);
 
         PollasArrayAdapter adapter = new PollasArrayAdapter(this,values);
 
-        // Assign adapter to ListView
         listView.setAdapter(adapter);
     }
 
@@ -49,5 +43,12 @@ public class MainActivity extends Activity {
         return true;
     }
 
-
+    public void abrirPollaExistente(View view)
+    {
+        Intent intent = new Intent(this, PollaActivity.class);
+        PollasArrayAdapter.PollaViewHolder holder = (PollasArrayAdapter.PollaViewHolder) ((RelativeLayout) view.getParent()).getTag();
+        Polla instance = holder.instanciaPolla;
+        intent.putExtra(EXTRA_POLLA, instance);
+        startActivity(intent);
+    }
 }

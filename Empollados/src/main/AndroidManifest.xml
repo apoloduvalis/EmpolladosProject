@@ -22,6 +22,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="co.verdedigital.empollados.PollaActivity"
+            android:label="@string/polla_etiqueta_nombre"
+            android:parentActivityName="co.verdedigital.empollados.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="co.verdedigital.empollados.MainActivity">
+            </meta-data>
+
+        </activity>
     </application>
 
 </manifest>

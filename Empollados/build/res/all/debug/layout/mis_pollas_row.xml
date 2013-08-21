@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent"
+                android:onClick="abrirPollaExistente">
 
     <ImageView
             android:id="@+id/pollas_logo_torneo"
@@ -19,7 +20,9 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentRight="true"
             android:src="@drawable/navigation_next_item"
-            android:contentDescription="@string/pollas_detalles_polla" />
+            android:contentDescription="@string/pollas_detalles_polla"
+            android:onClick="abrirPollaExistente"
+            android:clickable="true"/>
 
     <TextView
             android:id="@+id/pollas_titulo_polla"

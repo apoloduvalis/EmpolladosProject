@@ -1,11 +1,12 @@
 package co.verdedigital.model;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 
 /**
  * Created by apoloduvalis on 5/16/13.
  */
-public class Categoria
+public class Categoria implements Serializable
 {
     public String id;
     public String titulo;

@@ -1,11 +1,12 @@
 package co.verdedigital.model;
 
+import java.io.Serializable;
 import java.util.HashMap;
 
 /**
  * Created by apoloduvalis on 5/16/13.
  */
-public class Encuentro
+public class Encuentro implements Serializable
 {
     public Integer id;
     public String fecha;

@@ -19,13 +19,12 @@ public class PollasArrayAdapter extends ArrayAdapter<Polla>
     private final Context context;
     private final Polla[] values;
 
-    static class ViewHolder
+    public static class PollaViewHolder
     {
         public TextView pollas_titulo_polla;
         public ImageView pollas_logo_torneo;
+        public Polla instanciaPolla;
     }
-
-
 
     public PollasArrayAdapter(Context context, Polla[] objects)
     {
@@ -42,15 +41,16 @@ public class PollasArrayAdapter extends ArrayAdapter<Polla>
         {
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             rowView = inflater.inflate(R.layout.mis_pollas_row, parent, false);
-            ViewHolder vh = new ViewHolder();
+            PollaViewHolder vh = new PollaViewHolder();
             vh.pollas_titulo_polla = (TextView) rowView.findViewById(R.id.pollas_titulo_polla);
             vh.pollas_logo_torneo = (ImageView) rowView.findViewById(R.id.pollas_logo_torneo);
             rowView.setTag(vh);
         }
-        ViewHolder holder = (ViewHolder) rowView.getTag();
+        PollaViewHolder holder = (PollaViewHolder) rowView.getTag();
 
         holder.pollas_titulo_polla.setText(values[position].titulo);
         holder.pollas_logo_torneo.setImageResource(values[position].logoTorneoResourceId);
+        holder.instanciaPolla = values[position];
 
         return rowView;
     }
