@@ -20,6 +20,7 @@
 
             <TabWidget
                     android:id="@android:id/tabs"
+                    android:tag="tabPane"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content">
             </TabWidget>
@@ -29,76 +30,30 @@
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent">
 
-                <LinearLayout
-                        android:id="@+id/tabPolla1"
+                <fragment
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
-                        android:focusableInTouchMode="false"
-                        android:orientation="vertical">
+                        android:name="android.app.ListFragment"
+                        android:id="@+id/pollaTab1Fragment"
+                        android:layout_gravity="left|center_vertical"
+                        tools:layout="@layout/polla_tab1_fragment"/>
 
-                    <LinearLayout
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal">
 
-                        <TextView
-                                android:layout_width="100dp"
-                                android:layout_height="wrap_content"
-                                android:text="@string/polla_etiqueta_nombre"
-                                android:id="@+id/etiquetaNombrePolla"/>
-
-                        <EditText
-                                android:layout_width="fill_parent"
-                                android:layout_height="wrap_content"
-                                android:id="@+id/nombrePolla"/>
-                    </LinearLayout>
-
-                    <LinearLayout
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal">
-
-                        <TextView
-                                android:layout_width="100dp"
-                                android:layout_height="wrap_content"
-                                android:text="Torneo:"
-                                android:id="@+id/etiquetaNombreTorneo"
-                                />
-
-                        <EditText
-                                android:layout_width="fill_parent"
-                                android:layout_height="wrap_content"
-                                android:id="@+id/nombreTorneo"/>
-                    </LinearLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                        android:id="@+id/tabPolla2"
+                <fragment
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
-                        android:orientation="vertical">
+                        android:name="android.app.ListFragment"
+                        android:id="@+id/pollaTab2Fragment"
+                        android:layout_gravity="left|center_vertical"
+                        tools:layout="@layout/polla_tab2_fragment"/>
 
-                    <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textAppearance="?android:attr/textAppearanceLarge"
-                            android:text="Fases y encuentros"
-                            android:id="@+id/textView"/>
-                </LinearLayout>
-
-                <LinearLayout
-                        android:id="@+id/tabPolla3"
+                <fragment
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
-                        android:orientation="vertical">
-
-                    <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textAppearance="?android:attr/textAppearanceLarge"
-                            android:text="Participantes"
-                            android:id="@+id/textView2"/>
-                </LinearLayout>
+                        android:name="android.app.ListFragment"
+                        android:id="@+id/pollaTab3Fragment"
+                        android:layout_gravity="left|center_vertical"
+                        tools:layout="@layout/polla_tab3_fragment"/>
             </FrameLayout>
         </LinearLayout>
     </TabHost>

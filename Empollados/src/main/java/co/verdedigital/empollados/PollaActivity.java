@@ -4,13 +4,13 @@ import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
-import android.support.v4.app.FragmentTransaction;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.support.v4.app.NavUtils;
 import android.widget.EditText;
 
 import co.verdedigital.model.Polla;
+import co.verdedigital.adapters.TabListener;
 
 import static android.app.ActionBar.*;
 
@@ -39,14 +39,19 @@ public class PollaActivity extends Activity {
         final ActionBar actionBar = getActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
         actionBar.setNavigationMode(NAVIGATION_MODE_TABS);
-/*
+
+        ActionBar.Tab tab1 = actionBar.newTab();
+        tab1.setText("Tab1");
+        tab1.setTabListener(new TabListener<>())
+
         // Add 3 tabs, specifying the tab's text and TabListener
+
         for (int i = 0; i < 3; i++) {
             actionBar.addTab(
                     actionBar.newTab()
                             .setText("Tab " + (i + 1)));
         }
-*/
+
     }
 
     @Override
