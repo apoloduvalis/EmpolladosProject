@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/Users/apoloduvalis/AndroidStudioProjects/EmpolladosProject/Empollados/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/androidStudio/EmpolladosProject/Empollados/src/main/res/values/dimens.xml -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/Users/apoloduvalis/AndroidStudioProjects/EmpolladosProject/Empollados/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/androidStudio/EmpolladosProject/Empollados/src/main/res/values/strings.xml -->
     <string name="action_settings">Settings</string>
     <string name="app_name">Empollados</string>
     <string name="hello_world">Hello world!</string>
@@ -17,7 +17,7 @@
     <string name="pollas_detalles_polla">Detalles de la polla</string>
     <string name="pollas_logo_torneo">Torneo al que corresponde la polla</string>
     <string name="title_activity_pollas">PollasActivity</string>
-    <!-- From: file:/Users/apoloduvalis/AndroidStudioProjects/EmpolladosProject/Empollados/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/androidStudio/EmpolladosProject/Empollados/src/main/res/values/styles.xml -->
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
             Theme customizations available in newer API levels can go in

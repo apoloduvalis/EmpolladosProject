@@ -33,7 +33,7 @@
                 <fragment
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
-                        android:name="android.app.ListFragment"
+                        android:name="android.app.Fragment"
                         android:id="@+id/pollaTab1Fragment"
                         android:layout_gravity="left|center_vertical"
                         tools:layout="@layout/polla_tab1_fragment"/>
@@ -42,7 +42,7 @@
                 <fragment
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
-                        android:name="android.app.ListFragment"
+                        android:name="android.app.Fragment"
                         android:id="@+id/pollaTab2Fragment"
                         android:layout_gravity="left|center_vertical"
                         tools:layout="@layout/polla_tab2_fragment"/>
@@ -50,7 +50,7 @@
                 <fragment
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
-                        android:name="android.app.ListFragment"
+                        android:name="android.app.Fragment"
                         android:id="@+id/pollaTab3Fragment"
                         android:layout_gravity="left|center_vertical"
                         tools:layout="@layout/polla_tab3_fragment"/>

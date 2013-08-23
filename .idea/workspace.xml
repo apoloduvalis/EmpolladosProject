@@ -23,15 +23,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="240f099f-2d53-4a75-ace5-80a4666a9a01" name="Default" comment="tabs">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/empollados/PollaTab2Fragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/adapters/TabListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Empollados/src/main/res/layout/polla_tab1_fragment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Empollados/src/main/res/layout/polla_tab2_fragment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Empollados/src/main/res/layout/polla_tab3_fragment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empollados/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Empollados/src/main/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/empollados/PollaTab1Fragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/empollados/PollaTab3Fragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/empollados/PollaActivity.java" afterPath="$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/empollados/PollaActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/empollados/PollaTab2Fragment.java" afterPath="$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/empollados/PollaTab2Fragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empollados/build/source/r/debug/co/verdedigital/empollados/R.java" afterPath="$PROJECT_DIR$/Empollados/build/source/r/debug/co/verdedigital/empollados/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empollados/build/res/all/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/Empollados/build/res/all/debug/layout/activity_main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empollados/src/main/res/layout/activity_polla.xml" afterPath="$PROJECT_DIR$/Empollados/src/main/res/layout/activity_polla.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empollados/build/res/all/debug/menu/main.xml" afterPath="$PROJECT_DIR$/Empollados/build/res/all/debug/menu/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empollados/build/res/all/debug/layout/mis_pollas_row.xml" afterPath="$PROJECT_DIR$/Empollados/build/res/all/debug/layout/mis_pollas_row.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_13_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_13_0_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empollados/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/Empollados/build/res/all/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empollados/build/res/all/debug/values-sw720dp-land/values.xml" afterPath="$PROJECT_DIR$/Empollados/build/res/all/debug/values-sw720dp-land/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empollados/build/res/all/debug/values-v11/values.xml" afterPath="$PROJECT_DIR$/Empollados/build/res/all/debug/values-v11/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Empollados/build/res/all/debug/values-v14/values.xml" afterPath="$PROJECT_DIR$/Empollados/build/res/all/debug/values-v14/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="be8451dc-4d0d-46d8-94a1-3e3ac2c0e34c" name="Rejected commit: Default" comment="tabs" />
@@ -97,33 +111,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/empollados/MainActivity.java">
+      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Empollados/src/main/res/layout/activity_main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="1" selection-start="1672" selection-end="1672" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
+            <state line="0" column="0" selection-start="0" selection-end="75" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="816">
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="polla_tab1_fragment.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Empollados/src/main/res/layout/polla_tab1_fragment.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="19" selection-start="1427" selection-end="1427" vertical-scroll-proportion="-21.666666" vertical-offset="0" max-vertical-offset="705">
-              <folding>
-                <element signature="e#566#597#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_polla.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Empollados/src/main/res/layout/activity_polla.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="40" selection-start="1013" selection-end="1013" vertical-scroll-proportion="-13.333333" vertical-offset="0" max-vertical-offset="1005">
+            <state line="39" column="19" selection-start="1427" selection-end="1427" vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="799">
               <folding />
             </state>
           </provider>
@@ -132,21 +135,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TabListener.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/adapters/TabListener.java">
+      <file leaf-file-name="activity_polla.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Empollados/src/main/res/layout/activity_polla.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="4" selection-start="1740" selection-end="1740" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="52" column="50" selection-start="2257" selection-end="2257" vertical-scroll-proportion="1.0315052" vertical-offset="0" max-vertical-offset="1139">
+              <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PollaTab2Fragment.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/empollados/PollaTab2Fragment.java">
+      <file leaf-file-name="PollaTab1Fragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/empollados/PollaTab1Fragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="140" selection-end="140" vertical-scroll-proportion="0.13333334" vertical-offset="0" max-vertical-offset="900">
+            <state line="6" column="30" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -157,7 +161,7 @@
       <file leaf-file-name="PollaActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/empollados/PollaActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="44" selection-start="1480" selection-end="1480" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1320">
+            <state line="68" column="4" selection-start="2388" selection-end="2388" vertical-scroll-proportion="0.0" vertical-offset="716" max-vertical-offset="1768">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,16 +172,7 @@
       <file leaf-file-name="mis_pollas_row.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Empollados/build/res/all/debug/layout/mis_pollas_row.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="31" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Fase.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/model/Fase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="7" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="975">
+            <state line="1" column="31" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
               <folding />
             </state>
           </provider>
@@ -186,16 +181,7 @@
       <file leaf-file-name="Torneo.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/model/Torneo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="43" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="810">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Encuentro.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/model/Encuentro.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="46" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="855">
+            <state line="8" column="43" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="918">
               <folding />
             </state>
           </provider>
@@ -254,14 +240,13 @@
     <option name="modificationStamps">
       <map>
         <entry key="$PROJECT_DIR$" value="1376358262000" />
+        <entry key="C:\androidStudio\EmpolladosProject" value="1377262016902" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/adapters/PollaViewHolder2.java" />
-        <option value="$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/adapters/PollasArrayAdapter.java" />
         <option value="$PROJECT_DIR$/Empollados/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/Empollados/src/main/res/layout/mis_pollas_row.xml" />
         <option value="$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/model/Categoria.java" />
@@ -273,17 +258,19 @@
         <option value="$PROJECT_DIR$/Empollados/src/main/res/layout/polla_tab2_fragment.xml" />
         <option value="$PROJECT_DIR$/Empollados/src/main/res/layout/polla_tab3_fragment.xml" />
         <option value="$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/adapters/TabListener.java" />
-        <option value="$PROJECT_DIR$/Empollados/src/main/res/layout/activity_polla.xml" />
         <option value="$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/empollados/PollaActivity.java" />
+        <option value="$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/empollados/PollaTab1Fragment.java" />
+        <option value="$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/empollados/PollaTab3Fragment.java" />
         <option value="$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/empollados/PollaTab2Fragment.java" />
+        <option value="$PROJECT_DIR$/Empollados/src/main/res/layout/activity_polla.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="11" />
-    <option name="y" value="29" />
-    <option name="width" value="1781" />
-    <option name="height" value="1023" />
+    <option name="x" value="4" />
+    <option name="y" value="3" />
+    <option name="width" value="1838" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -311,6 +298,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -515,40 +504,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="persistence" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Empollados" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EmpolladosProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Empollados" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="verdedigital" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="empollados" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -589,8 +544,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -782,13 +735,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="11" y="29" width="1781" height="1023" extended-state="0" />
+    <frame x="4" y="3" width="1838" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21953958" sideWeight="0.76400864" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21899012" sideWeight="0.76431715" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39978448" sideWeight="0.49971926" order="3" side_tool="false" content_ui="tabs" />
@@ -796,20 +749,20 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23568282" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30495688" sideWeight="0.49971926" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1588995" sideWeight="0.76400864" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19209659" sideWeight="0.76431715" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286638" sideWeight="0.4991578" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23599137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -831,37 +784,14 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/sdk/sources/android-18/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="764" column="0" selection-start="27540" selection-end="27540" vertical-scroll-proportion="0.3327032" vertical-offset="10669" max-vertical-offset="12075" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/persistence/PollasDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="24" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/model/Categoria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="46" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/model/Polla.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="23" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-          <folding />
-        </state>
+        <state line="15" column="23" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/model/Encuentro.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="46" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="855">
-          <folding />
-        </state>
+        <state line="8" column="46" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="855" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/model/Fase.java">
@@ -881,13 +811,6 @@
     <entry file="file://$PROJECT_DIR$/Empollados/build/res/all/debug/layout/mis_pollas_row.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="31" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/empollados/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="1" selection-start="1672" selection-end="1672" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
           <folding />
         </state>
       </provider>
@@ -914,19 +837,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Empollados/src/main/res/layout/polla_tab1_fragment.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="19" selection-start="1427" selection-end="1427" vertical-scroll-proportion="-21.666666" vertical-offset="0" max-vertical-offset="705">
-          <folding>
-            <element signature="e#566#597#0" expanded="true" />
-          </folding>
+        <state line="39" column="19" selection-start="1427" selection-end="1427" vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="799">
+          <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Empollados/src/main/res/layout/activity_polla.xml">
+    <entry file="file://$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/empollados/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="40" selection-start="1013" selection-end="1013" vertical-scroll-proportion="-13.333333" vertical-offset="0" max-vertical-offset="1005">
+        <state line="25" column="23" selection-start="681" selection-end="696" vertical-scroll-proportion="0.23129252" vertical-offset="0" max-vertical-offset="882">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Empollados/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="75" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="857">
           <folding />
         </state>
       </provider>
@@ -936,16 +864,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/empollados/PollaActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="44" selection-start="1480" selection-end="1480" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1320">
+        <state line="68" column="4" selection-start="2388" selection-end="2388" vertical-scroll-proportion="0.0" vertical-offset="716" max-vertical-offset="1768">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/adapters/TabListener.java">
+    <entry file="file://$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/empollados/PollaTab1Fragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="4" selection-start="1740" selection-end="1740" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
+        <state line="6" column="30" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/empollados/PollaTab3Fragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="47" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -954,11 +891,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/empollados/PollaTab2Fragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="140" selection-end="140" vertical-scroll-proportion="0.13333334" vertical-offset="0" max-vertical-offset="900">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="22" column="53" selection-start="580" selection-end="580" vertical-scroll-proportion="0.3469388" vertical-offset="0" max-vertical-offset="882">
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Empollados/src/main/java/co/verdedigital/adapters/TabListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="10" selection-start="812" selection-end="812" vertical-scroll-proportion="0.26757368" vertical-offset="138" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Empollados/src/main/res/layout/activity_polla.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="50" selection-start="2257" selection-end="2257" vertical-scroll-proportion="1.0315052" vertical-offset="0" max-vertical-offset="1139">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
   </component>

@@ -11,6 +11,7 @@ import android.widget.EditText;
 
 import co.verdedigital.model.Polla;
 import co.verdedigital.adapters.TabListener;
+import co.verdedigital.empollados.PollaTab1Fragment;
 
 import static android.app.ActionBar.*;
 
@@ -21,7 +22,7 @@ public class PollaActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_polla);
         // Show the Up button in the action bar.
-        setupActionBar();
+        setupActionBar(savedInstanceState);
 
         Intent intent = getIntent();
         Polla instance = (Polla) intent.getSerializableExtra(MainActivity.EXTRA_POLLA);
@@ -34,24 +35,39 @@ public class PollaActivity extends Activity {
     /**
      * Set up the {@link android.app.ActionBar}.
      */
-    private void setupActionBar()
+    private void setupActionBar(Bundle savedInstanceState)
     {
         final ActionBar actionBar = getActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
         actionBar.setNavigationMode(NAVIGATION_MODE_TABS);
+        actionBar.setDisplayOptions(0, DISPLAY_SHOW_TITLE);
 
         ActionBar.Tab tab1 = actionBar.newTab();
         tab1.setText("Tab1");
-        tab1.setTabListener(new TabListener<>())
+        tab1.setTabListener(new TabListener<PollaTab1Fragment>(this,"tab1",PollaTab1Fragment.class));
+        actionBar.addTab(tab1);
 
-        // Add 3 tabs, specifying the tab's text and TabListener
+        ActionBar.Tab tab2 = actionBar.newTab();
+        tab2.setText("Tab1");
+        tab2.setTabListener(new TabListener<PollaTab1Fragment>(this,"tab1",PollaTab1Fragment.class));
+        actionBar.addTab(tab2);
 
-        for (int i = 0; i < 3; i++) {
-            actionBar.addTab(
-                    actionBar.newTab()
-                            .setText("Tab " + (i + 1)));
+        ActionBar.Tab tab3 = actionBar.newTab();
+        tab3.setText("Tab1");
+        tab3.setTabListener(new TabListener<PollaTab1Fragment>(this,"tab1",PollaTab1Fragment.class));
+        actionBar.addTab(tab3);
+
+        if (savedInstanceState != null)
+        {
+            actionBar.setSelectedNavigationItem(savedInstanceState.getInt("tab", 0));
         }
+    }
 
+    @Override
+    protected void onSaveInstanceState(Bundle outState)
+    {
+        super.onSaveInstanceState(outState);
+        outState.putInt("tab", getActionBar().getSelectedNavigationIndex());
     }
 
     @Override

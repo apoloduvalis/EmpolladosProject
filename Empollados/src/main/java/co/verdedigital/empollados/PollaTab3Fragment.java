@@ -7,9 +7,9 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * Created by apoloduvalis on 8/23/13.
+ * Created by ameza on 23/08/13.
  */
-public class PollaTab2Fragment extends Fragment
+public class PollaTab3Fragment extends Fragment
 {
     @Override
     public void onCreate(Bundle savedInstanceState)
@@ -20,7 +20,7 @@ public class PollaTab2Fragment extends Fragment
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState)
     {
-        View v = inflater.inflate(R.layout.polla_tab3_fragment, container, false);
+        View v = inflater.inflate(R.layout.polla_tab1_fragment, container, false);
         return v;
     }
 }
