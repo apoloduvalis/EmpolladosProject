@@ -3,13 +3,10 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="C:\androidStudio\EmpolladosProject" />
-        <option name="gradleHome" value="C:/AppPortables/gradle-1.7" />
-        <option name="preferLocalInstallationToWrapper" value="true" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="useAutoImport" value="true" />
       </GradleProjectSettings>
     </option>
-    <option name="serviceDirectoryPath" value="C:/Users/ameza/.gradle" />
   </component>
 </project>
 

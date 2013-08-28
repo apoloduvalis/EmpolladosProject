@@ -32,4 +32,4 @@
             android:layout_toRightOf="@+id/pollas_logo_torneo"
             android:text="Tit" />
 
-</RelativeLayout><!-- From: file:/C:/androidStudio/EmpolladosProject/Empollados/src/main/res/layout/mis_pollas_row.xml -->
+</RelativeLayout><!-- From: file:/Users/apoloduvalis/AndroidStudioProjects/EmpolladosProject/Empollados/src/main/res/layout/mis_pollas_row.xml -->

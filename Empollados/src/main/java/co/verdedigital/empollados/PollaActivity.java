@@ -20,16 +20,11 @@ public class PollaActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_polla);
         // Show the Up button in the action bar.
         setupActionBar(savedInstanceState);
 
-        Intent intent = getIntent();
-        Polla instance = (Polla) intent.getSerializableExtra(MainActivity.EXTRA_POLLA);
-        EditText nombrePolla = (EditText) findViewById(R.id.nombrePolla);
-        nombrePolla.setText(instance.titulo);
-        EditText nombreTorneo = (EditText) findViewById(R.id.nombreTorneo);
-        nombreTorneo.setText(instance.getFase(1).getTorneo().titulo);
+
+
     }
 
     /**
@@ -43,18 +38,18 @@ public class PollaActivity extends Activity {
         actionBar.setDisplayOptions(0, DISPLAY_SHOW_TITLE);
 
         ActionBar.Tab tab1 = actionBar.newTab();
-        tab1.setText("Tab1");
+        tab1.setText("Polla");
         tab1.setTabListener(new TabListener<PollaTab1Fragment>(this,"tab1",PollaTab1Fragment.class));
         actionBar.addTab(tab1);
 
         ActionBar.Tab tab2 = actionBar.newTab();
-        tab2.setText("Tab1");
-        tab2.setTabListener(new TabListener<PollaTab1Fragment>(this,"tab1",PollaTab1Fragment.class));
+        tab2.setText("Partidos");
+        tab2.setTabListener(new TabListener<PollaTab2Fragment>(this,"tab2",PollaTab2Fragment.class));
         actionBar.addTab(tab2);
 
         ActionBar.Tab tab3 = actionBar.newTab();
-        tab3.setText("Tab1");
-        tab3.setTabListener(new TabListener<PollaTab1Fragment>(this,"tab1",PollaTab1Fragment.class));
+        tab3.setText("Miembros");
+        tab3.setTabListener(new TabListener<PollaTab3Fragment>(this,"tab3",PollaTab3Fragment.class));
         actionBar.addTab(tab3);
 
         if (savedInstanceState != null)
@@ -68,6 +63,9 @@ public class PollaActivity extends Activity {
     {
         super.onSaveInstanceState(outState);
         outState.putInt("tab", getActionBar().getSelectedNavigationIndex());
+
+
+
     }
 
     @Override
